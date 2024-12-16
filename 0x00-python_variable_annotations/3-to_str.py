@@ -1,7 +1,9 @@
-def to_str(n: float) -> str:
-    return str(n)
+#!/usr/bin/env python3
 
-pi_str = to_str(3.14)
-print(pi_str == str(3.14))
-print(to_str.__annotations__)
-print("to_str(3.14) returns {} which is a {}".format(pi_str, type(pi_str)))
+# This module contains a function that converts a float to a string.
+
+def to_str(n: float) -> str:
+    """
+    Convert a float to a string.
+    """
+    return str(n)
